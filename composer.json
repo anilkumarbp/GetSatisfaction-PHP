@@ -1,0 +1,21 @@
+{
+  "name": "apimatic/getsatisfactionapi",
+  "type": "library",
+  "description": "Articles that matter on social publishing platform",
+  "keywords": ["Get Satisfaction API","API","SDK"],
+  "homepage": "https://apimatic.io",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "mashape/unirest-php": "~3.0.1",
+    "apimatic/jsonmapper": "~1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GetSatisfactionAPILib\\": "src/"
+    }
+  }
+}
